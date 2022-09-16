@@ -75,10 +75,7 @@ p.description {
   height: 280px;
   object-fit: cover;
   margin: 20px;
-  /* display: inline-block; */
 }
-/* .picture {
-} */
 
 footer {
   background-color: var(--primary-color);
@@ -92,4 +89,30 @@ footer {
 
 .social {
   margin: auto 15px;
+}
+
+@media (max-width: 768px) {
+  h1.art-name {
+    font-size: 44px;
+  }
+
+  #get-started {
+    line-height: 14px;
+    font-size: 10px;
+    padding: 10px 20px;
+  }
+
+  footer {
+    height: 70px;
+  }
+  footer .shecodes {
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .rights {
+    font-size: 10px;
+  }
+  .social {
+    margin: auto 7px;
+  }
 }

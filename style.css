@@ -20,6 +20,8 @@ body {
   padding-top: 100px;
   background-size: cover;
   background-image: url("/images/bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
   height: 900px;
   color: white;
 }
@@ -71,10 +73,12 @@ p.description {
 .gallery-picture {
   width: 100%;
   height: 280px;
-}
-.picture {
+  object-fit: cover;
   margin: 20px;
+  /* display: inline-block; */
 }
+/* .picture {
+} */
 
 footer {
   background-color: var(--primary-color);

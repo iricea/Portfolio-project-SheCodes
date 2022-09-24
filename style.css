@@ -19,7 +19,7 @@ body {
 .art {
   padding-top: 100px;
   background-size: cover;
-  background-image: url("/images/bg.png");
+  background-image: url("./images/bg.png");
   background-repeat: no-repeat;
   background-position: center;
   height: 900px;
@@ -91,6 +91,45 @@ footer {
   margin: auto 15px;
 }
 
+.about-main {
+  padding-top: 118px;
+}
+
+.about {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: #F65282;
+}
+
+.photographer-name {
+  font-size: 64px;
+  color: white;
+  line-height: 75px;
+  font-weight: 700;
+}
+
+.about-content {
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.social-group {
+  color: white;
+  margin: auto -15px;
+}
+
+.camera {
+  background-color: #2D2727;
+  padding: 20px;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  width: fit-content;
+}
+
 @media (max-width: 768px) {
   h1.art-name {
     font-size: 44px;
@@ -115,4 +154,34 @@ footer {
   .social {
     margin: auto 7px;
   }
+ 
+
 }
+@media (max-width: 1440px)  {
+  .photographer-name {
+    font-size: 44px;
+  }   
+  .about-content {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .camera {
+    font-size: 12px;
+    padding: 10px;
+  }
+  .contact-button {
+    margin: 0 auto;
+  }
+}
+@media (min-width:767px) and (max-width: 899px) {
+.about {
+  font-size: 12px;
+  line-height: 1;
+}
+.photographer-name {
+  font-size: 24px;
+  line-height: 2;
+}
+
+}
+

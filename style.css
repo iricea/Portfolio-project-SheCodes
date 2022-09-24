@@ -4,6 +4,7 @@ font-family: 'Roboto', sans-serif; */
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Montserrat", sans-serif;
   --primary-color: #282323;
+  --secondary-color: #F65282;
 }
 
 body {
@@ -95,7 +96,7 @@ footer {
   padding-top: 118px;
 }
 
-.gallery-header {
+.gallery-header, .contact-header {
   margin-top: 150px;
   color: white;
   font-size: 72px;
@@ -103,11 +104,11 @@ footer {
   text-align: center;
 }
 
-.about {
+.subheading {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  color: #F65282;
+  color: var(--secondary-color);
 }
 
 .photographer-name {
@@ -136,6 +137,15 @@ footer {
   font-weight: 700;
   font-size: 18px;
   width: fit-content;
+}
+
+.contact {
+  color: white;
+}
+.contact > a {
+  text-decoration: none;
+  color: white;
+
 }
 
 @media (max-width: 768px) {
@@ -168,10 +178,14 @@ footer {
   .camera {
     margin: 0 auto;
   }
-
+  .subheading {
+    font-size: 12px;
+    line-height: 1;
+  }
 }
+
 @media (max-width: 1440px)  {
-  .photographer-name {
+  .photographer-name, .contact-header {
     font-size: 44px;
   }   
   .about-content {
@@ -185,16 +199,16 @@ footer {
   .contact-button {
     margin: 0 auto;
   }
+
 }
 @media (min-width:767px) and (max-width: 899px) {
-.about {
-  font-size: 12px;
-  line-height: 1;
-}
-.photographer-name {
-  font-size: 24px;
-  line-height: 2;
-}
-
+  .subheading {
+    font-size: 12px;
+    line-height: 1;
+  }
+  .photographer-name {
+    font-size: 24px;
+    line-height: 2;
+  }
 }
 

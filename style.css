@@ -142,10 +142,14 @@ footer {
 .contact {
   color: white;
 }
-.contact > a {
+.contact > a, .social, footer a.shecodes {
   text-decoration: none;
   color: white;
+  transition: all 150ms ease-in-out;
+}
 
+.social:hover {
+  color: grey;
 }
 
 @media (max-width: 768px) {

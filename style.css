@@ -147,6 +147,16 @@ footer {
   color: grey;
 }
 
+.contact-button>a {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.contact-button>a:hover {
+  color: white;
+}
+
 @media (max-width: 768px) {
   h1.art-name {
     font-size: 44px;
@@ -194,9 +204,6 @@ footer {
   .camera {
     font-size: 12px;
     padding: 10px;
-  }
-  .contact-button {
-    margin: 0 auto;
   }
 
 }

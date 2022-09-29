@@ -157,6 +157,10 @@ footer {
   color: white;
 }
 
+.github-link {
+  color: white;
+}
+
 @media (max-width: 768px) {
   h1.art-name {
     font-size: 44px;
